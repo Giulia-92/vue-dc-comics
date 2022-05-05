@@ -1,11 +1,8 @@
 <template>
   <section class="comicbook">
-    <img alt="jumbo" src="../assets/images/footer-bg.jpg">
+     
     <div class="logobg">
-  <img src="../assets/images/dc-logo-bg.png" alt="">
-  </div>
-  <div class="info">
-    <ul>
+<ul class="info">
         <li>DC COMICS</li>
         <li>Characters</li>
         <li>Comics</li>
@@ -14,20 +11,10 @@
         <li>Games</li>
         <li>Videos</li>
         <li>News</li>
+
     </ul>
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-</div>
+  <img src="../assets/images/dc-logo-bg.png" alt="">
+  </div>
     <section class="footer" >
         <button class="btn">SIGN-UP NOW!</button>
         <h4>FOLLOW US</h4>
@@ -45,8 +32,11 @@
 </template>
 
 <script>
+
 export default {
   name: 'FooterContent',
+  
+
 }
 </script>
 <style scoped lang="scss">
@@ -59,24 +49,29 @@ h4{
    
 }
 .comicbook{
-background-size:auto;
+background-image: url('../assets/images/footer-bg.jpg');
+background-repeat: repeat;
 position: relative;
+height:600px;
 }
 .logobg{
  position: absolute;
-margin-top:-28%;
+margin-top:1%;
 margin-left: 50%;
 }
-.info{
-     list-style-type: none;
-     color:white;
-}
+
+ul .info{
+    color:white;
+
+}    
+
 .footer{
     background-color:#272829;
     width:100%;
     height:110px;
     margin-top:-40px;
     display:flex;
+    margin-top:30%;
     position: absolute;
     justify-content: flex-end;  
 }
