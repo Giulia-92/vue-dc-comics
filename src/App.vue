@@ -3,6 +3,7 @@
     <HeaderContent />
    <MainContent />
    <FooterContent/>
+   <PicturesContent/>
   </div>
 </template>
 
@@ -10,14 +11,14 @@
 import MainContent from './components/MainContent.vue'
 import HeaderContent from './components/HeaderContent.vue'
 import FooterContent from './components/FooterContent.vue'
-//import PicturesContent from './components/PicturesContent.vue'
+import PicturesContent from './components/PicturesContent.vue'
 export default {
   name: 'App',
   components: {
     MainContent,
     HeaderContent,
     FooterContent,
-    //PicturesContent,
+    PicturesContent,
   },
 }
 </script>

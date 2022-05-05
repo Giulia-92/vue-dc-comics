@@ -1,8 +1,6 @@
 <template>
     <div>{{name}} -
-        {{type}} -
-        {{img}} -
-        {{price}}
+        {{img}}
     </div>
    
 </template>

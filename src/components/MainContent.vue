@@ -6,7 +6,7 @@
       </div>
       <div>
         <ul>
-          <li><PicturesContent v-for="(item, index) in comics" :key="index" :name="item.series" :type="item.type" :img="item.thumb" :price="item.price"/> </li>
+          <li><PicturesContent v-for="(item, index) in pictures" :key="index" :name="item.series" :img="item.thumb" /> </li>
         </ul>
       </div>
     </section>
