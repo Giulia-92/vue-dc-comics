@@ -3,16 +3,16 @@
     <img class="logo" src="../assets/images/dc-logo.png" alt="">
 
     <ul>
-        <li>Caracters</li>
-        <li>Comics</li>
-        <li>Movies</li>
-        <li>Tv</li>
-        <li>Games</li>
-        <li>collectibles</li>
-        <li>Videos</li>
-        <li>Fans</li>
-        <li>News</li>
-        <li>Shop</li>
+        <li> <a href="#">Caracters</a></li>
+        <li><a href="#">Comics</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Tv</a></li>
+        <li><a href="#">Games</a></li>
+        <li><a href="#">Collectibles</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">Fans</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Shop</a></li>
     </ul>
   </nav>
 </template>
@@ -55,7 +55,13 @@ li {
   color:#5b5d5e;
 }
 a {
-  color:#03a1fc ;
+  color:#5b5d5e; 
+  text-decoration: none;
+}
+
+a:hover{
+ text-decoration:underline#03a1fc 3px;
+ color: #03a1fc;
 }
 
 </style>

@@ -58,7 +58,7 @@ a {
   background-color:#008eed;
   display: inline-flex;
   width: 100%;
-  height: 180px;
+  height: 140px;
 }
 .card{
   width:50px;
